@@ -1,7 +1,7 @@
 # Machine-Learning-for-Diabetic-Ratinopathy
 Awarded with First Runner UP and People's choice award at Code Camp 2018 
 
-Here is screenshot of homepage to input eye image into the model:
+Here is screenshot of homepage to input eye image into the model:<br>
 
 ![screencapture-127-0-0-1-8080-2018-07-19-18_52_39](https://user-images.githubusercontent.com/24986485/43061608-a108e7e4-8e75-11e8-88ac-b112efd82525.png)
 
