@@ -1,0 +1,150 @@
+<!------------------- From Bootstrap -------------------------------------->\
+
+{% load staticfiles %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ML for diabetic</title>
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel = "stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    </head>
+  <body>
+
+  <!--------------------NAVIGATION----------------------------->
+
+
+    <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type = "button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a href="#" class="navbar-brand">ML for Diabetic Ratinopathy</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#search">Logout</a></li>
+                    <li><a href="#search">Advanced</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+ <!------------------------ End Navigation --------------------------->
+
+  <!------------------------- Header ------------------------------------>
+
+      <div id="header" class="header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-xs-12 wow bounceInLeft" data-wow-delay="0.3s">
+                      <h1>Reading your eye !</h1>
+                      <p> Diabetic retinopathy is the leading cause of blindness in the working-age population in the world. It is estimated to affect over 93 million people. If detected and treated in time, they can be cured from blindness. Detection of this disease is extremely tedious and expensive. </p>
+                      <button class="btn btn-md btn-danger">Check your eye</button>
+                      <button class="btn btn-md btn-warning"><a href="search_list.html">know more</a></button>
+                  </div>
+                  <div class="col-lg-6 col-md-6" >
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+   <!-------------------------- End Header --------------------------->
+
+
+<!---------------------------      searching the hostel---------------------->
+      <form method="GET" action="{% url 'searchlist' %}">
+        <div id="search" class="search">
+          <div class="container">
+              <div class="row">
+                  <h2 class="wow fadeInUp">Eye image </h2>
+                  <p class="wow fadeInUp" data-wow-delay="0.4s">Input Eye image here</p>
+
+
+                  <div class="col-lg-3 col-md-3">
+
+                  </div>
+
+
+
+
+                  <div class="col-lg-3">
+                    <div class="input-group input-group-lg wow fadeInUp" data-wow-delay="0.7s">
+                          <span class="input-group-addon" id-sizing-addon1><i class="fa fa-street-view" aria-hidden="true"></i></span>
+                          <input type="file" name="img" class="form-control" aria-describeby="sizing-addon1" placeholder="file">
+                    </div>
+                  </div>
+
+
+
+                  <div class="col-lg-2" >
+                        <button class="btn btn-lg wow fadeInUp" data-wow-delay="1.2s" type="submit"> Analyze</button>
+                  </div>
+
+
+
+
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+
+      </form>
+
+<!---------------------------      End of searching the hostel---------------------->
+
+
+              <!---Footer--->
+
+              <div id="footer" class="footer">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-4 col-md-4">
+                              <p>.</p>
+                              <p>.</p>
+                              <p>.</p>
+                              <p>.</p>
+                          </div>
+                          <div class="col-lg-4 col-md-4">
+
+                          </div>
+                          <div class="col-lg-4 col-md-4">
+
+                           </div>
+                      </div>
+                  </div>
+              </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<!-- -------------     this is for the animation-->
+      <script src="{% static 'js/wow.min.js' %}"></script>
+    <script>
+        new WOW().init();
+    </script>
+<!-------------ed animation------------------->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

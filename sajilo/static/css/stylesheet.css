@@ -1,0 +1,443 @@
+/*-------sabai default css for the rest of the index-----------*/
+* {
+    
+    padding:0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+li{
+    
+    list-style: none;
+    display: inline-block
+}
+
+a {
+    
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+    
+        text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+    
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+     
+    background-color:  #ededed !important;
+    color: #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+
+
+/*---------------- NAVIGATION ------------------*/
+
+
+.navbar {
+    
+    background-color: #222222 !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+/*    font-weight: 700;*/
+}
+
+.navbar a {
+    
+    color: #fff !important;
+/*    opacity: 0.7;*/
+}
+
+
+.navbar a:hover {
+    
+    color: red !important;
+    opacity: 1;
+    background-color: #111111 !important;
+}
+
+
+
+/*-------------------------Header------------------*/
+
+.header{
+    
+    height: 600px;
+    width: 100%;
+    padding: 100px 0 30px;
+    margin-top: 5px;
+    background-image: url(../images/ok.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.header img{
+    
+    height: 250px;
+    width: 350px;
+    margin: 70px 0 0 40px;
+}
+
+.header h1 {
+    
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.header h1,
+.header p,
+.header button {
+    
+    margin-top: 30px;
+}
+
+.header .btn {
+    
+/*    border-radius: 0;*/
+    margin: 40px 20px;
+}
+
+
+@media(max-width:768px) {
+    
+    .header {
+        
+        padding: 30px;
+        height: 750px;
+    }
+    
+    .header img {
+         
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+    
+    .header .btn {
+        
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    
+    .header h1 {
+        
+        font-size: 20px;
+    }
+    
+    .header p {
+        
+        font-size: 10px;
+    }
+}
+
+/*-------------search for the hostel-----------*/
+
+.search {
+    background-image:url(../images/search_bgk.jpg);
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.search p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.search h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.search .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.search .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.search .span {
+    
+    border-radius: 0 !important;
+}
+
+.search .btn {
+    padding-left:0px;
+    border-radius: 0;
+/*    width: 100%;*/
+    width: 130px;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+
+.search .btn:hover {
+    
+    background-color: #a85959 !important; 
+    color: #fff !important;
+}
+/* -------------Featured Hostels-------------- */
+.featured_img{
+    
+
+    height: 150px;
+    width: 150px;
+
+}
+    
+    .services {
+        
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+
+
+.services h1,
+.services h4 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+
+.services p {
+    
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+.services i {
+    
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50px;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+
+@media(max-width:768px) {
+    
+    .services {
+        
+        padding: 30px;
+    }
+}
+
+/*---------------- TEAM ------------------------*/
+
+.team {
+    background-image: url(../images/teamm.jpg);
+    padding: 50px 0 80px;
+    text-align: center;
+    
+    
+}
+
+.team b,
+.team h2,
+.team h4 {
+    color: red;
+/*    color: #fff;*/
+    margin: 20px 0 20px;
+/*    color: #4c4c4c;*/
+}
+
+.team p {
+    color: #fff;
+/*    color: #737373;*/
+}
+
+.team img {
+     
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: dimgrey;
+    color: white;
+}
+
+.team a:hover i {
+    
+    background-color: #709963;
+}
+
+/* CLIENTS */
+
+.clients {
+    
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+}
+
+.clients h2 {
+    
+    color: #5e5e5e;
+}
+
+.clients p {
+    
+    padding-bottom: 40px;
+}
+
+.clients img {
+    
+    width: 200px;
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out; 
+}
+
+.clients li:hover img {
+    
+    opacity: 1;
+}
+
+/*-------------------- CONTACT--------------------------- */
+
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact .span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    
+    background-color: #a85959 !important; 
+    color: #fff !important;
+}
+
+/*---------------- FOOTER -----------------------*/
+
+.footer {
+    
+    padding: 30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+.footer h4{
+        color: red;
+
+
+}
+
+.footer .social {
+    
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+/*    border: 1px solid #cccccc;*/
+    margin-bottom: 10px;
+    color: red;
+    margin-right: 5px;
+}
+
+
+.footer input {
+    
+    height: 40px;
+    width: 220px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn {
+    text-align: center;
+    background-color: red;
+    height: 40px;
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+    color:white;
+}
