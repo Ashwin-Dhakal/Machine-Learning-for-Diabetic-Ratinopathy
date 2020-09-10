@@ -13,4 +13,9 @@ Glimpse of happiness ! :) <br>
 
 ![5b5408256f2e0](https://user-images.githubusercontent.com/24986485/43061876-9f49c6a2-8e76-11e8-93d8-5dae9ab5f755.jpg)
 
+<br>
+<br>
+Relying on the project's idea, new workflow of architecture of was designed and a research was proposed. You can have a detailed look over here: 
+https://www.researchgate.net/publication/335229500_Detection_and_Classification_of_Diabetic_Retinopathy_using_Adaptive_Boosting_and_Artificial_Neural_Network
+
 
