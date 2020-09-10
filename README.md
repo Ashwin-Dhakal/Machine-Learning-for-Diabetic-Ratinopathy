@@ -16,7 +16,7 @@ Glimpse of happiness ! :) <br>
 <br>
 <br>
 Relying on the project's idea, new workflow of architecture of was designed and a research was proposed. You can have a full read of the paper here: <br>
-"Detection and Classification of Diabetic Retinopathy using Adaptive Boosting and Artificial Neural Network"
+##"Detection and Classification of Diabetic Retinopathy using Adaptive Boosting and Artificial Neural Network"
 
 https://www.researchgate.net/publication/335229500_Detection_and_Classification_of_Diabetic_Retinopathy_using_Adaptive_Boosting_and_Artificial_Neural_Network
 
